@@ -10,7 +10,8 @@ const config = ({
    timeout : 5 * 1000 
   },
   use: {
-    browserName: 'chromium'
+    browserName: 'webkit'
+    // headless: false
     
   },
   reporter: 'html'
